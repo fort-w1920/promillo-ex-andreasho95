@@ -26,6 +26,5 @@ show_me_how_drunk <- function(age, sex, height, weight, drinking_time, drinks) {
   }
 
   ggplot2::qplot(five_min_seq, alcohol_values, geom = "line", xlab = "Time", ylab = "Alcohol value [in \211]")
-
 }
 
