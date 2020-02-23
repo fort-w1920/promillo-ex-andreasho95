@@ -1,0 +1,20 @@
+Package: promillo
+Title: Calculates the blood alcohol level
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Andreas",
+           family = "Hofheinz",
+           role = c("aut", "cre"),
+           email = "andreas.hofheinz@outlook.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The package allows users to estimate their current blood alcohol level based on a selection of drinks.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
+RoxygenNote: 6.1.1
+Imports: 
+    checkmate,
+    lubridate,
+    ggplot2
