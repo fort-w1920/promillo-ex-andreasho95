@@ -91,3 +91,4 @@ get_permille <- function(alcohol_drunk, bodywater, drinking_time){
   # sobering up starts only after one hour & you can't be more sober than 0:
   max(0, permille  - (max(0, partylength - 1) * sober_per_hour))
 }
+
